@@ -9,7 +9,7 @@ double eloop(double x, double n) // iterative
     return sum;
 }
 
-double e(double x, double n) // recursive
+double e(double x, double n) // tail-recursion
 {
     static double sum = 1;
     if (n == 0)
